@@ -1285,7 +1285,7 @@ ks.test(Q34_data$response[Q34_data$survey == "SoD"],
 
 ```
 
-```{r question_QP3, echo=T, eval = T, message=FALSE, warning=FALSE, results=FALSE, fig.cap="Figure QP3"}
+```{r question_35, echo=T, eval = T, message=FALSE, warning=FALSE, results=FALSE, fig.cap="Figure QP3"}
 #Paulina Q3
 #What areas (if any) do you feel you need help with in regard to making your research data openly available.
 #This code chunk uses the multiple choice functions.
@@ -1321,7 +1321,7 @@ plot_multiple_choice(QP3_data,
 
 
 
-```{r question_17, echo=T, eval = T, message=FALSE, warning=FALSE, results=FALSE, fig.cap="Figure 17"}
+```{r question_36, echo=T, eval = T, message=FALSE, warning=FALSE, results=FALSE, fig.cap="Figure 17"}
 #Creating data sets for Q17
 sod21Q17 = as.data.frame(dplyr::select(sod21,61))
 sod21Pile = cbind(sod21Pile, sod21Q17)
@@ -1365,7 +1365,7 @@ SvPQ17 = ks.test(Q17_data$response[Q17_data$survey == "SoD"],
 ```
 
 
-```{r question_21, echo=T, eval = T, message=FALSE, warning=FALSE, results=FALSE, fig.cap="Figure 21"}
+```{r question_37, echo=T, eval = T, message=FALSE, warning=FALSE, results=FALSE, fig.cap="Figure 21"}
 #This code chunk uses the multiple choice functions.
 
 #Response levels of Q21
